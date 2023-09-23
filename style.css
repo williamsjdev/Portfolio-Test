@@ -265,3 +265,9 @@ h1 {
     max-width: 600px;
   }
 }
+
+@media screen and (min-width: 480px) {
+  .hero-inferior-imagen {
+    max-width: 480px;
+  }
+}
