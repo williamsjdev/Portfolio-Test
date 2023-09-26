@@ -54,6 +54,11 @@ h1 {
   margin: 20px;
 }
 
+.btn-info {
+  color: white;
+  background-color: #1b1b32;
+}
+
 .texto-negro {
   color: black;
 }
@@ -240,6 +245,58 @@ h1 {
 
 .skills-info p {
   margin-bottom: 0;
+}
+
+/* contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  max-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: #1b1b32;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button {
+  color: white;
+  font-size: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i{
+  color: black;
 }
 
 /* Adaptable (Responsive) */
